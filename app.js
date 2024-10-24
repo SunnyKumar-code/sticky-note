@@ -14,7 +14,7 @@ addbutton.addEventListener("click", function() {
     let div = document.createElement("div");
     div.classList.add("note"); 
     let p = document.createElement("p");
-    div.classList.add("page");
+    p.classList.add("page");
     let cross_button = document.createElement("button");
     cross_button.classList.add("cross");
     div.appendChild(p);
